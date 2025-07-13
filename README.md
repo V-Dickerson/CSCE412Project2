@@ -1,11 +1,11 @@
-# CSCE 411 Project 2
+# CSCE 412 Project 2
 
-This is the source code for CSCE 411 Project 2.
+This is the source code for CSCE 412 Project 2.
 
 It contains a simple site for this project, as well as the scripts necessary to deploy it.
 
 ## Getting Started
-Clone this repo using [this link](https://github.com/V-Dickerson/CSCE411Project2.git) to the location from which you'd like to store the code.
+Clone this repo using [this link](https://github.com/V-Dickerson/CSCE412Project2.git) to the location from which you'd like to store the code.
 
 Ensure you have `docker`, `docker-compose`, and the necessary images to get started with the application already installed.
 
