@@ -1,0 +1,36 @@
+services:
+  site1:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - SERVICE_NAME=Site 1
+      - SERVICE_PORT=8080
+  site2:
+    build: .
+    ports:
+      - "8081:80"
+    environment:
+      - SERVICE_NAME=Site 2
+      - SERVICE_PORT=8081
+  site3:
+    build: .
+    ports:
+      - "8082:80"
+    environment:
+      - SERVICE_NAME=Site 3
+      - SERVICE_PORT=8082
+  site4:
+    build: .
+    ports:
+      - "8083:80"
+    environment:
+      - SERVICE_NAME=Site 4
+      - SERVICE_PORT=8083
+  site5:
+    build: .
+    ports:
+      - "8084:80"
+    environment:
+      - SERVICE_NAME=Site 5
+      - SERVICE_PORT=8084

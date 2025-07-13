@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="header-title">
-            <img src="VanessaCodesLogo.png" alt="Vanessa Codes Logo" width="50" height="50">
+            <img src="images/VanessaCodesLogo.png" alt="Vanessa Codes Logo" width="50" height="50">
             <h1>Project 2</h1>
         </div>
 
@@ -35,6 +35,16 @@
         Other technologies used along the way include Git and GitHub for
         hosting code, as well as SSH (through Remote SSH on VSCode) for a convenient
         development experience on the Lightsail Virtual Machine.
+    </p>
+    <p>
+        One unique challenge was Docker Compose, and setting up the project to inject
+        environment variables from the Docker Compose file into the application as it
+        displays to the user, based on the container they run.
+
+        This was done by reading online about the specifications of nginx, and identifying
+        how I could pass the environment variables to the application at build time from
+        the Docker Compose environment variables. Then, throw in some trial and error
+        and eventually I got it working!
     </p>
 </body>
 </html>
